@@ -1,0 +1,6 @@
+framework module Pods_SPToast_Example {
+  umbrella header "Pods-SPToast_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

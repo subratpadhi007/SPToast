@@ -39,10 +39,10 @@
 		607FACE51AFB9204008FA782 /* SPToast_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPToast_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7D85CF4F79F4EE6BBBE52934 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		7F78743A0A11C242F200F682 /* SPToast.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SPToast.podspec; path = ../SPToast.podspec; sourceTree = "<group>"; };
+		7D85CF4F79F4EE6BBBE52934 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7F78743A0A11C242F200F682 /* SPToast.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SPToast.podspec; path = ../SPToast.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		87B410FD79B16DCB3249DFF4 /* Pods_SPToast_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPToast_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		92CE4982B6144F3AE84BEE49 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		92CE4982B6144F3AE84BEE49 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A7009C75B9E5CF327AE3CF68 /* Pods-SPToast_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPToast_Example.debug.xcconfig"; path = "Target Support Files/Pods-SPToast_Example/Pods-SPToast_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B728357A1E00178DB8746660 /* Pods-SPToast_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPToast_Tests.release.xcconfig"; path = "Target Support Files/Pods-SPToast_Tests/Pods-SPToast_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BB58F7316DC966EDD65EA543 /* Pods_SPToast_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPToast_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,7 +77,6 @@
 				1D40644057814B11FBC23D34 /* Pods-SPToast_Tests.debug.xcconfig */,
 				B728357A1E00178DB8746660 /* Pods-SPToast_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

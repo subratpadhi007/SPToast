@@ -1,0 +1,6 @@
+framework module SPToast {
+  umbrella header "SPToast-umbrella.h"
+
+  export *
+  module * { export * }
+}

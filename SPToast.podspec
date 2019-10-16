@@ -25,7 +25,7 @@ Customized Animated Toast Message for IOS Apps. Beautiful Animation to display y
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Subrat' => 'subratpadhi007@gmail.com' }
-  s.source           = { :git => 'https://github.com/Subrat/SPToast.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/subratpadhi007/SPToast.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/subratpadhi007'
 
   s.ios.deployment_target = '8.0'

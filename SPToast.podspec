@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 Customized Animated Toast Message for IOS Apps. Beautiful Animation to display your toast messge in ur apps.
                        DESC
 
-  s.homepage         = 'https://github.com/Subrat/SPToast'
+  s.homepage         = 'https://github.com/subratpadhi007/SPToast'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Subrat' => 'subratpadhi007@gmail.com' }

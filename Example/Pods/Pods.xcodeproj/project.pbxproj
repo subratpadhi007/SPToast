@@ -8,10 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		2594137EAE6E32609D6E785BF63B13A6 /* SPToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F4EFE8E083DFDF29EF8A32F668EFF2 /* SPToast-dummy.m */; };
-		2BF047CE4294FAD0589199081A4C0EB0 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E482834920D9821DFE3558358A8234 /* ReplaceMe.swift */; };
 		485BEC59720B362A5D2296C2124E45ED /* Pods-SPToast_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB087A3A7B46F47AB288908FD4E1A996 /* Pods-SPToast_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C5E5422DABBEEB543C5DEE02ED7CF1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		85F2196838C0D79A5A6D64133DBD1BC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9D69E139235718AF001062D0 /* ToastMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D69E138235718AF001062D0 /* ToastMain.swift */; };
+		9D69E13B23571981001062D0 /* ValidationPopUp.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D69E13A23571981001062D0 /* ValidationPopUp.xib */; };
+		9D69E13D23571997001062D0 /* ValidationPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D69E13C23571997001062D0 /* ValidationPopUp.swift */; };
+		9D69E13F23571C0F001062D0 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D69E13E23571C0F001062D0 /* UIKitExtensions.swift */; };
 		C37D797F7CF62A5F426EA028D4619995 /* SPToast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3971354D710E9F1CD24FEB065404192F /* SPToast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D41658390D0D5ABA9CC173624CC418F2 /* Pods-SPToast_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 508CA27F5ABF1490A2C7951DBFAB2E2B /* Pods-SPToast_Example-dummy.m */; };
 		D722A4EA75CD22FF6A6133A5D412AE0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -37,31 +40,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02213E320AACDD52CB3E4963889DCFA6 /* SPToast.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SPToast.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		037E14D68DEF8F756642BFE97BB9B793 /* SPToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SPToast.framework; path = SPToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		02213E320AACDD52CB3E4963889DCFA6 /* SPToast.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SPToast.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		037E14D68DEF8F756642BFE97BB9B793 /* SPToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SPToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C8D15EF376DFEF6433BB401BE641AF /* Pods-SPToast_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPToast_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		168BF967111A9E6A50749081D44ACC39 /* SPToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPToast-prefix.pch"; sourceTree = "<group>"; };
 		2741CA9C955516BED1744392F5F33693 /* SPToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPToast.xcconfig; sourceTree = "<group>"; };
 		28FB6811AE0403E1CD21C3412EAE7FC6 /* Pods-SPToast_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SPToast_Example-umbrella.h"; sourceTree = "<group>"; };
-		2DB2EE7D26037F870547B4FB2022853B /* Pods_SPToast_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SPToast_Tests.framework; path = "Pods-SPToast_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DB2EE7D26037F870547B4FB2022853B /* Pods_SPToast_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPToast_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3971354D710E9F1CD24FEB065404192F /* SPToast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPToast-umbrella.h"; sourceTree = "<group>"; };
 		4304952B9E6FBC8B7EC0F1CABD67D6AF /* Pods-SPToast_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPToast_Tests-Info.plist"; sourceTree = "<group>"; };
 		432CF9544D5E125EDFECDE03F49FE755 /* Pods-SPToast_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPToast_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		508CA27F5ABF1490A2C7951DBFAB2E2B /* Pods-SPToast_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPToast_Example-dummy.m"; sourceTree = "<group>"; };
 		53727F1E8469304013823523D3046A45 /* Pods-SPToast_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SPToast_Example-frameworks.sh"; sourceTree = "<group>"; };
-		6315F620C7EC77DC80B94B9FCEE35E76 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6315F620C7EC77DC80B94B9FCEE35E76 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		65353791E4C6D009E2D899505B538C93 /* Pods-SPToast_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPToast_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6B400D3BCE15AE604E5F08B9B23A31F9 /* Pods-SPToast_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SPToast_Tests.modulemap"; sourceTree = "<group>"; };
 		6C74458A7DE64D2D34AB74B4EE88C2EE /* Pods-SPToast_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SPToast_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6D8D2AEC2220EA042FB0801FAD7FB512 /* Pods_SPToast_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SPToast_Example.framework; path = "Pods-SPToast_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D8D2AEC2220EA042FB0801FAD7FB512 /* Pods_SPToast_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPToast_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79F4EFE8E083DFDF29EF8A32F668EFF2 /* SPToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPToast-dummy.m"; sourceTree = "<group>"; };
-		8336171F1E93E4B0ACD85AA34C73C80A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8336171F1E93E4B0ACD85AA34C73C80A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8EEE27645696D491A416CCF37BDC4FE8 /* Pods-SPToast_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPToast_Example-Info.plist"; sourceTree = "<group>"; };
 		90722E30B177AC45AD8EE2FCF0D781ED /* Pods-SPToast_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SPToast_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9BC91921C5514FD042E858DA7BB90EB1 /* SPToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SPToast.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B1E482834920D9821DFE3558358A8234 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SPToast/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		9D69E138235718AF001062D0 /* ToastMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastMain.swift; sourceTree = "<group>"; };
+		9D69E13A23571981001062D0 /* ValidationPopUp.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ValidationPopUp.xib; sourceTree = "<group>"; };
+		9D69E13C23571997001062D0 /* ValidationPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationPopUp.swift; sourceTree = "<group>"; };
+		9D69E13E23571C0F001062D0 /* UIKitExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B6209C34549DD196A99C02197ED077E6 /* Pods-SPToast_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPToast_Tests-dummy.m"; sourceTree = "<group>"; };
 		C11723CC7FF3B22DD8E9AD25B4FEC74D /* Pods-SPToast_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPToast_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C8BD41760AF04EF78BFAA05838550AE1 /* Pods-SPToast_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPToast_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -120,7 +126,7 @@
 		7948AB1F87E82EE1506AE7D2674DD8BD /* SPToast */ = {
 			isa = PBXGroup;
 			children = (
-				B1E482834920D9821DFE3558358A8234 /* ReplaceMe.swift */,
+				9D69E1372357189B001062D0 /* Source */,
 				7C95F8E78CD88641E6DDF0BCF1E8A4C8 /* Pod */,
 				7E0DCDC1F8429537C3C327530A9534DD /* Support Files */,
 			);
@@ -150,6 +156,17 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/SPToast";
+			sourceTree = "<group>";
+		};
+		9D69E1372357189B001062D0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9D69E13A23571981001062D0 /* ValidationPopUp.xib */,
+				9D69E138235718AF001062D0 /* ToastMain.swift */,
+				9D69E13C23571997001062D0 /* ValidationPopUp.swift */,
+				9D69E13E23571C0F001062D0 /* UIKitExtensions.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -315,6 +332,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					2C90D6B17F3E4A9E07752C7B71882C34 = {
+						LastSwiftMigration = 1030;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -354,6 +376,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D69E13B23571981001062D0 /* ValidationPopUp.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +395,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D69E139235718AF001062D0 /* ToastMain.swift in Sources */,
+				9D69E13D23571997001062D0 /* ValidationPopUp.swift in Sources */,
+				9D69E13F23571C0F001062D0 /* UIKitExtensions.swift in Sources */,
 				D41658390D0D5ABA9CC173624CC418F2 /* Pods-SPToast_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,7 +406,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BF047CE4294FAD0589199081A4C0EB0 /* ReplaceMe.swift in Sources */,
 				2594137EAE6E32609D6E785BF63B13A6 /* SPToast-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,6 +433,7 @@
 			baseConfigurationReference = C8BD41760AF04EF78BFAA05838550AE1 /* Pods-SPToast_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -430,6 +456,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -475,6 +502,7 @@
 			baseConfigurationReference = 14C8D15EF376DFEF6433BB401BE641AF /* Pods-SPToast_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -497,6 +525,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -653,8 +683,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

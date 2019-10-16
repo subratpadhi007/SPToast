@@ -29,6 +29,7 @@ Customized Animated Toast Message for IOS Apps. Beautiful Animation to display y
   s.social_media_url = 'https://twitter.com/subratpadhi007'
 
   s.ios.deployment_target = '8.0'
+  s.swift_version = '4.1'
 
   s.source_files = 'SPToast/Classes/**/*'
   
